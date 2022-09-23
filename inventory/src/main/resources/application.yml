@@ -1,0 +1,17 @@
+server: 
+  port: 9050
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/springtestordersystem
+      database: springtestordersystem
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG
